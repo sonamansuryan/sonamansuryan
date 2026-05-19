@@ -45,7 +45,7 @@ A sophisticated voice assistant tailored for the Armenian language, integrating 
 Implementation of classic and deep RL algorithms. Exploring the dynamics of agent-environment interactions.
 - **Tech:** Gymnasium, Q-Learning, DQN.
 
-### 📰 [Fake News Detection](https://github.com/sonamansuryan/FakeNewsDetectionSystems)
+### 📰 [Fake News Detection & Verification System](https://github.com/sonamansuryan/FakeNewsDetectionSystems)
 Development of an automated system for real-time detection, analysis, and verification of misinformation using advanced Natural Language Processing.
 - **Core focus:** Real-time stream processing, content analysis, and automated fact-checking.
 - **Tech:** NLP, Scikit-learn, Passive Aggressive Classifier.
@@ -55,15 +55,13 @@ Development of an automated system for real-time detection, analysis, and verifi
 ## 📊 GitHub Activity
 ![Sona's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sonamansuryan&theme=dracula)
 
-<br/>
-
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonamansuryan&layout=compact&theme=dark" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonamansuryan&layout=compact&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&cache_seconds=1800" alt="Top Languages" height="165" />
 </p>
 
 ---
 
 ## 🤝 Let's Connect!
-I'm always open to discussing **Deep Learning**, **RL**, or **Armenian NLP** projects. Whether you have a question or just want to say hi, feel free to reach out!
+I'm always open to discussing **Deep Learning**, **RL**, or **Armenian NLP** projects.
 
 *"Optimizing the world, one reward at a time."*
