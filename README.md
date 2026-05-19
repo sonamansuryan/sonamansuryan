@@ -52,11 +52,11 @@ Development of an automated system for real-time detection, analysis, and verifi
 
 ---
 
-## 📊 GitHub Activity
-![Sona's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sonamansuryan&theme=dracula)
+## 📊 GitHub Activity & Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonamansuryan&layout=compact&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&cache_seconds=1800" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sonamansuryan&layout=compact&theme=dracula&hide_border=false&include_all_commits=true&count_private=true" alt="Top Languages" height="165" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sonamansuryan&theme=dracula" alt="Sona's Activity Graph" height="165" />
 </p>
 
 ---
@@ -64,4 +64,8 @@ Development of an automated system for real-time detection, analysis, and verifi
 ## 🤝 Let's Connect!
 I'm always open to discussing **Deep Learning**, **RL**, or **Armenian NLP** projects.
 
-*"Optimizing the world, one reward at a time."*
+---
+
+<p align="center">
+  <i>"AI is the horizon where technology and art converge, turning imagination into reality."</i>
+</p>
