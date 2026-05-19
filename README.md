@@ -46,15 +46,19 @@ Implementation of classic and deep RL algorithms. Exploring the dynamics of agen
 - **Tech:** Gymnasium, Q-Learning, DQN.
 
 ### 📰 [Fake News Detection](https://github.com/sonamansuryan/FakeNewsDetectionSystems)
-Natural Language Processing system to classify and identify misinformation in news articles.
+Development of an automated system for real-time detection, analysis, and verification of misinformation using advanced Natural Language Processing.
+- **Core focus:** Real-time stream processing, content analysis, and automated fact-checking.
 - **Tech:** NLP, Scikit-learn, Passive Aggressive Classifier.
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
+![Sona's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sonamansuryan&theme=dracula)
+
+<br/>
+
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=sonamansuryan&show_icons=true&theme=dark&hide_border=false" alt="Sona's Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonamansuryan&layout=compact&theme=dark&hide_border=false" alt="Top Languages" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonamansuryan&layout=compact&theme=dark" alt="Top Languages" height="165" />
 </p>
 
 ---
