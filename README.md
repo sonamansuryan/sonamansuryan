@@ -25,8 +25,8 @@ I am a graduate of **National Polytechnic University of Armenia (NPUA)**, specia
 | **Languages** | ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=postgresql&logoColor=white) |
 | **AI/ML Frameworks** | ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat&logo=Keras&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) |
 | **Computer Vision** | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) |
-| **NLP & Voice** | Hugging Face Transformers, OpenAI Whisper, STT/TTS |
-| **Deployment** | ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) Hugging Face Spaces |
+| **NLP & Voice** | ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) ![Transformers](https://img.shields.io/badge/Transformers-FF9D00?style=flat) |
+| **Deployment** | ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![HF Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20HF%20Spaces-FFD21E?style=flat) |
 
 ---
 
@@ -53,8 +53,8 @@ Natural Language Processing system to classify and identify misinformation in ne
 
 ## 📊 GitHub Stats
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=sonamansuryan&show_icons=true&theme=radical" alt="Sona's Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonamansuryan&layout=compact&theme=radical" alt="Top Languages" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sonamansuryan&show_icons=true&theme=dark&hide_border=false" alt="Sona's Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonamansuryan&layout=compact&theme=dark&hide_border=false" alt="Top Languages" height="150" />
 </p>
 
 ---
