@@ -52,15 +52,6 @@ Development of an automated system for real-time detection, analysis, and verifi
 
 ---
 
-## 📊 GitHub Activity & Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sonamansuryan&layout=compact&theme=dracula&hide_border=false&include_all_commits=true&count_private=true" alt="Top Languages" height="165" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sonamansuryan&theme=dracula" alt="Sona's Activity Graph" height="165" />
-</p>
-
----
-
 ## 🤝 Let's Connect!
 I'm always open to discussing **Deep Learning**, **RL**, or **Armenian NLP** projects.
 
