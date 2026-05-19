@@ -10,7 +10,7 @@
 ---
 
 ## 🚀 About Me
-I am a graduate of **National Polytechnic University of Armenia (NPUA)**, specializing in AI Systems. I focus on building practical machine learning and AI solutions that connect research ideas with real-world applications.
+I'm a graduate of **National Polytechnic University of Armenia (NPUA)**, specializing in AI Systems. I focus on building practical machine learning and AI solutions that connect research ideas with real-world applications.
 
 - 🎓 **Education:** B.S. in Artificial Intelligence Systems @ NPUA.
 - 🧠 **Focus Areas:** Computer Vision, Reinforcement Learning (Learning by trial, optimizing by reward), and NLP.
