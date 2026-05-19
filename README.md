@@ -2,8 +2,8 @@
 ### AI/ML Engineer | Deep Learning & Reinforcement Learning Enthusiast
 
 <p align="left">
-  <a href="https://linkedin.com/in/sona-mansuryan-501379335/" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:mansuryan0161@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="[https://linkedin.com/in/sona-mansuryan-501379335/](https://www.linkedin.com/in/sona-mansuryan-501379335/)" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:mansuryansona04@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://huggingface.co/sonamans" target="blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=for-the-badge" alt="Hugging Face" /></a>
 </p>
 
