@@ -1,5 +1,12 @@
+---
+layout: default
+title: Home
+---
+
 # Hi there, I'm Sona Mansuryan 👋
 ### AI/ML Engineer | Deep Learning & Reinforcement Learning Enthusiast
+
+[LinkedIn](https://www.linkedin.com/in/sona-mansuryan-501379335/) | [Email](mailto:mansuryansona04@gmail.com) | [GitHub](https://github.com/sonamansuryan)
 
 <p align="left">
   <a href="https://www.linkedin.com/in/sona-mansuryan-501379335/" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -13,7 +20,7 @@
 I'm a graduate of **National Polytechnic University of Armenia (NPUA)**, specializing in AI Systems. I focus on building practical machine learning and AI solutions that connect research ideas with real-world applications.
 
 - 🎓 **Education:** B.S. in Artificial Intelligence Systems @ NPUA.
-- 🧠 **Focus Areas:** Computer Vision, Reinforcement Learning (Learning by trial, optimizing by reward), and NLP.
+- 🧠 **Focus Areas:** Computer Vision, Reinforcement Learning and NLP.
 - 🛠️ **Current Goal:** Scaling Deep Learning models and exploring Generative AI architectures.
 
 ---
