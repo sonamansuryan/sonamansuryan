@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 # Hi there, I'm Sona Mansuryan 👋
 ### AI/ML Engineer | Deep Learning & Reinforcement Learning Enthusiast
 
