@@ -52,6 +52,10 @@ Development of an automated system for real-time detection, analysis, and verifi
 
 ---
 
+## 📊 GitHub Activity
+![Sona's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sonamansuryan&theme=dracula)
+
+---
 ## 🤝 Let's Connect!
 
 I'm always open to collaborating on Machine Learning and AI-driven solutions, discussing research, or exploring new frontiers in the tech world.
