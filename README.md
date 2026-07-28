@@ -1,5 +1,5 @@
 # Hi there, I'm Sona Mansuryan 👋
-### AI/ML Engineer | Deep Learning & Reinforcement Learning Enthusiast
+### AI/ML Engineer 
 
 
 <p align="left">
