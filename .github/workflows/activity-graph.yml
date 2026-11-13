@@ -12,12 +12,109 @@ jobs:
   graph:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
-      - uses: seijikohara/profile-cards-action@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          username: sonamansuryan
-          cards: contributions
-          output-dir: assets
-          themes: light,dark
-          commit: true
+      - uses: actions/checkout@v4
+
+      - name: Generate activity graph
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+
+          now = datetime.now(timezone.utc)
+          start = (now - timedelta(days=29)).replace(
+              hour=0, minute=0, second=0, microsecond=0
+          )
+
+          query = """
+          query($login: String!, $from: DateTime!, $to: DateTime!) {
+            user(login: $login) {
+              contributionsCollection(from: $from, to: $to) {
+                contributionCalendar {
+                  weeks {
+                    contributionDays {
+                      date
+                      contributionCount
+                    }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          request = Request(
+              "https://api.github.com/graphql",
+              data=json.dumps({
+                  "query": query,
+                  "variables": {
+                      "login": os.environ["PROFILE_USERNAME"],
+                      "from": start.isoformat(timespec="seconds"),
+                      "to": now.isoformat(timespec="seconds"),
+                  },
+              }).encode(),
+              headers={
+                  "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                  "Content-Type": "application/json",
+              },
+          )
+
+          with urlopen(request, timeout=30) as response:
+              result = json.load(response)
+
+          if result.get("errors"):
+              raise SystemExit(json.dumps(result["errors"]))
+
+          user = result["data"]["user"]
+          if not user:
+              raise SystemExit("GitHub profile not found")
+
+          weeks = user["contributionsCollection"]["contributionCalendar"]["weeks"]
+          counts = {
+              day["date"]: day["contributionCount"]
+              for week in weeks
+              for day in week["contributionDays"]
+          }
+          if not counts:
+              raise SystemExit("GitHub returned no contribution calendar data")
+
+          dates = [start.date() + timedelta(days=i) for i in range(30)]
+          values = [counts.get(day.isoformat(), 0) for day in dates]
+          peak = max(1, max(values))
+          points = " ".join(
+              f"{16 + i * 608 / 29:.1f},{104 - value * 88 / peak:.1f}"
+              for i, value in enumerate(values)
+          )
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="640" height="130" viewBox="0 0 640 130">
+            <title>GitHub contributions over the last 30 days</title>
+            <line x1="16" y1="104" x2="624" y2="104" stroke="#8b949e" stroke-opacity=".4"/>
+            <polyline points="{points}" fill="none" stroke="#2ea043" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+            <g fill="#8b949e" font-family="sans-serif" font-size="11">
+              <text x="16" y="123">{dates[0]:%b %d}</text>
+              <text x="624" y="123" text-anchor="end">{dates[-1]:%b %d}</text>
+            </g>
+          </svg>
+          '''
+
+          output = Path("assets/activity.svg")
+          output.parent.mkdir(parents=True, exist_ok=True)
+          output.write_text(svg, encoding="utf-8")
+          PY
+
+      - name: Commit and push graph
+        run: |
+          git add assets/activity.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(profile): update activity graph [skip ci]"
+          git push
