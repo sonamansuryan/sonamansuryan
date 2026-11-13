@@ -56,7 +56,7 @@ I'm a graduate of **National Polytechnic University of Armenia (NPUA)**, special
 ---
 
 ## 📊 GitHub Activity
-![Daily GitHub activity](https://github-readme-activity-graph.vercel.app/graph?username=sonamansuryan&hide_border=true&hide_title=true&area=false)
+![GitHub contributions over the last 30 days](./assets/activity.svg)
 
 ---
 ## 🤝 Let's Connect!
